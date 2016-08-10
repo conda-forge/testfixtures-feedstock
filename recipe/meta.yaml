@@ -29,7 +29,7 @@ about:
     home: http://pythonhosted.org/testfixtures/
     license: MIT
     summary: 'A collection of helpers and mock objects for unit tests and doc tests.'
-    doc_url: http://pythonhosted.org/testfixtures/
+    doc_url: https://testfixtures.readthedocs.io/en/latest/
 
 extra:
     recipe-maintainers:
