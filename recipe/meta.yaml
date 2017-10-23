@@ -1,5 +1,5 @@
-{% set version = "4.10.0" %}
-{%set md5 = "64af471a82ab788c1f18e6c2b8bf0479" %}
+{% set version = "5.2.0" %}
+{% set sha256 = "7427d4b63861c1896865ea7be078fa1e2b219ce9b1a9a0895f823475a5f76c85" %}
 
 package:
     name: testfixtures
@@ -8,7 +8,7 @@ package:
 source:
     fn: testfixtures-{{ version }}.tar.gz
     url: https://pypi.io/packages/source/t/testfixtures/testfixtures-{{ version }}.tar.gz
-    md5: {{ md5 }}
+    sha256: {{ sha256 }}
 
 build:
     number: 0
@@ -24,12 +24,15 @@ requirements:
 test:
     imports:
         - testfixtures
+        - testfixtures.tests
+        - testfixtures.tests.test_django
 
 about:
     home: http://pythonhosted.org/testfixtures/
     license: MIT
     summary: 'A collection of helpers and mock objects for unit tests and doc tests.'
     doc_url: https://testfixtures.readthedocs.io/en/latest/
+    dev_url: https://github.com/Simplistix/testfixtures
 
 extra:
     recipe-maintainers:
