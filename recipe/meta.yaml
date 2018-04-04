@@ -9,7 +9,7 @@ source:
   sha256: f6c4cf24d043f9d8e9a9337371ec1d2f6638a0032504bd67dbd724224fd64969
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: python -m pip install --no-deps --ignore-installed .
 
@@ -27,7 +27,7 @@ test:
     - testfixtures.tests.test_django
 
 about:
-    home: http://pythonhosted.org/testfixtures/
+    home: https://testfixtures.readthedocs.io/en/latest/
     license: MIT
     license_file: LICENSE.txt
     summary: 'A collection of helpers and mock objects for unit tests and doc tests.'
