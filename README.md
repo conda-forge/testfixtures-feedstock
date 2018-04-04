@@ -1,7 +1,7 @@
 About testfixtures
 ==================
 
-Home: http://pythonhosted.org/testfixtures/
+Home: https://testfixtures.readthedocs.io
 
 Package license: MIT
 
