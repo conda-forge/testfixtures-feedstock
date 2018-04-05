@@ -1,5 +1,4 @@
 {% set version = "6.0.0" %}
-
 package:
   name: testfixtures
   version: {{ version }}
@@ -27,11 +26,11 @@ test:
     - testfixtures.tests.test_django
 
 about:
-    home: https://testfixtures.readthedocs.io/en/latest/
+    home: https://testfixtures.readthedocs.io
     license: MIT
     license_file: LICENSE.txt
     summary: 'A collection of helpers and mock objects for unit tests and doc tests.'
-    doc_url: https://testfixtures.readthedocs.io/en/latest/
+    doc_url: https://testfixtures.readthedocs.io
     dev_url: https://github.com/Simplistix/testfixtures
 
 extra:
