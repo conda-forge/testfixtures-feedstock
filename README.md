@@ -14,12 +14,15 @@ Summary: A collection of helpers and mock objects for unit tests and doc tests.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/testfixtures-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/testfixtures-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/testfixtures-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/testfixtures-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/testfixtures/badges/version.svg)](https://anaconda.org/conda-forge/testfixtures)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/testfixtures/badges/downloads.svg)](https://anaconda.org/conda-forge/testfixtures)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-testfixtures-green.svg)](https://anaconda.org/conda-forge/testfixtures) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/testfixtures.svg)](https://anaconda.org/conda-forge/testfixtures) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/testfixtures.svg)](https://anaconda.org/conda-forge/testfixtures) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/testfixtures.svg)](https://anaconda.org/conda-forge/testfixtures) |
 
 Installing testfixtures
 =======================
