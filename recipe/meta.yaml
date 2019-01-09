@@ -1,11 +1,11 @@
-{% set version = "6.4.1" %}
+{% set version = "6.4.2" %}
 package:
   name: testfixtures
   version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/t/testfixtures/testfixtures-{{ version }}.tar.gz
-  sha256: b040b59e0089809c2f157d3463ea288a10d890661695581649f40ae967944829
+  sha256: cb086a10a229481384d2bb98bc0910a4fe571a36efd92f236e9d28247c36bd99
 
 build:
   number: 0
