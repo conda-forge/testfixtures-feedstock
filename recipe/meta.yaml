@@ -1,11 +1,11 @@
-{% set version = "6.13.1" %}
+{% set version = "6.14.0" %}
 package:
   name: testfixtures
   version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/t/testfixtures/testfixtures-{{ version }}.tar.gz
-  sha256: 6edef5d0d39b4a11ada53307379c07c38d69db4a684d40d4e3e08ec7ba66187e
+  sha256: cdfc3d73cb6d3d4dc3c67af84d912e86bf117d30ae25f02fe823382ef99383d2
 
 build:
   number: 0
@@ -26,16 +26,16 @@ test:
     - testfixtures.tests.test_django
 
 about:
-    home: https://testfixtures.readthedocs.io
-    license: MIT
-    license_file: LICENSE.txt
-    summary: 'A collection of helpers and mock objects for unit tests and doc tests.'
-    doc_url: https://testfixtures.readthedocs.io
-    dev_url: https://github.com/Simplistix/testfixtures
+  home: https://testfixtures.readthedocs.io
+  license: MIT
+  license_file: LICENSE.txt
+  summary: A collection of helpers and mock objects for unit tests and doc tests.
+  doc_url: https://testfixtures.readthedocs.io
+  dev_url: https://github.com/Simplistix/testfixtures
 
 extra:
   recipe-maintainers:
     - ChrisBarker-NOAA
     - JamesMakela-NOAA
     - cjw296
-   
+
