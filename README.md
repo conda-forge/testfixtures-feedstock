@@ -5,11 +5,13 @@ Home: https://testfixtures.readthedocs.io
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/testfixtures-feedstock/blob/master/LICENSE.txt)
 
 Summary: A collection of helpers and mock objects for unit tests and doc tests.
 
+Development: https://github.com/Simplistix/testfixtures
 
+Documentation: https://testfixtures.readthedocs.io
 
 Current build status
 ====================
