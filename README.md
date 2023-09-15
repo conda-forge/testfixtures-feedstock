@@ -1,11 +1,11 @@
-About testfixtures
-==================
+About testfixtures-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/testfixtures-feedstock/blob/main/LICENSE.txt)
 
 Home: https://testfixtures.readthedocs.io
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/testfixtures-feedstock/blob/main/LICENSE.txt)
 
 Summary: A collection of helpers and mock objects for unit tests and doc tests.
 
