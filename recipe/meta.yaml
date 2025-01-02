@@ -4,22 +4,24 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/t/testfixtures/testfixtures-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/t/testfixtures/testfixtures-{{ version }}.tar.gz
   sha256: d4c0b84af2f267610f908009b50d6f983a4e58ade22c67bab6787b5a402d59c0
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.6
+    - python >={{ python_min }}
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - testfixtures
     - testfixtures.tests
