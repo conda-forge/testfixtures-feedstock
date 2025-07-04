@@ -22,6 +22,8 @@ requirements:
     - python >={{ python_min }}
 
 test:
+  requires:
+    python {{ python_min }}
   imports:
     - testfixtures
     - testfixtures.tests
