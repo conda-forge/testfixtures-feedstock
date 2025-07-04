@@ -1,27 +1,28 @@
-{% set version = "8.3.0" %}
+{% set version = "9.0.0" %}
 package:
   name: testfixtures
   version: {{ version }}
 
 source:
   url: https://pypi.org/packages/source/t/testfixtures/testfixtures-{{ version }}.tar.gz
-  sha256: d4c0b84af2f267610f908009b50d6f983a4e58ade22c67bab6787b5a402d59c0
+  sha256: a858e7fd665e5039d6d86c7951d9a231008e18e993ea8624cb20bbec6d49fed4
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python {{ python_min }}
+    - python >=3.11
+    # - python {{ python_min }}
     - pip
+    - setuptools
   run:
-    - python >={{ python_min }}
+    - python >=3.11
+#    - python >={{ python_min }}
 
 test:
-  requires:
-    - python {{ python_min }}
   imports:
     - testfixtures
     - testfixtures.tests
