@@ -1,4 +1,4 @@
-{% set version = "9.0.1" %}
+{% set version = "9.1.0" %}
 {% set python_min = "3.11.0" %}
 package:
   name: testfixtures
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/testfixtures/testfixtures-{{ version }}.tar.gz
-  sha256: 5d4c7e8632ae8fec046d06cdceb0973c679bbf35a6fd8924bd03cf3669477dab
+  sha256: 517e9cf353942723533ae1100ca45dd27fe0785c3ad2765075f5cb1cbce01482
 
 build:
   number: 0
