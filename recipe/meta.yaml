@@ -26,8 +26,6 @@ test:
     - python {{ python_min }}
   imports:
     - testfixtures
-    - testfixtures.tests
-    - testfixtures.tests.test_django
 
 about:
   home: https://testfixtures.readthedocs.io
